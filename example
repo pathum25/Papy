@@ -1,0 +1,16 @@
+# Local dev using SQLite
+DATABASE_URL="file:./dev.db"
+
+# NextAuth
+NEXTAUTH_URL=http://localhost:3000
+NEXTAUTH_SECRET=change-this-to-a-secure-random-string
+
+# OAuth providers (optional)
+GITHUB_ID=
+GITHUB_SECRET=
+GOOGLE_ID=
+GOOGLE_SECRET=
+
+# Email provider for magic links (optional)
+EMAIL_SERVER=smtp://user:pass@smtp.example.com:587
+EMAIL_FROM="Papy <no-reply@example.com>"
